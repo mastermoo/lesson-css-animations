@@ -1,0 +1,17 @@
+.box {
+	width: 200px;
+	height: 200px;
+	background: #999;
+}
+
+.box:hover {
+	background: #BA0C2F;
+}
+
+.box.with-transition {
+	transition: background .3s ease;
+}
+
+.box.alt-transition {
+	transition: background 5s linear;
+}

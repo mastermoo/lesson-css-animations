@@ -1,0 +1,17 @@
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.translate {
+	transform: translateX(100px) translateY(100px);
+}
+
+.rotate {
+	transform: rotate(0deg);
+}
+
+.scale {
+	transform: scale(1.5);
+}

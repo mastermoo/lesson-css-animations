@@ -1,0 +1,96 @@
+img {
+	cursor: pointer;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	opacity: 0.5;
+  
+	transition-property: opacity, width, height;
+	transition-duration: 0.3s, .6s, .6s;
+	transition-timing-function: ease;
+}
+
+img:hover {
+	opacity: 1;
+}
+img:active {
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Exercise: 3.1
+
+*/
+
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.row img {
+	opacity: 1;
+	width: 160px;
+	height: 160px;
+	margin: 0 10px;
+}
+
+.row:hover img:not(:hover) {
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
